@@ -5,13 +5,13 @@ double v1=60;
 double v2=70;
 double f1=75;
 double ort=(v1/4+v2/4+f1/2);
-if(ort>85){
+if(ort>=85){
     System.out.println("takdir aldı");
 }
-else if(ort>70){
+else if(ort>=70){
     System.out.println("teşekkür aldı");
 }
-else if(ort>50){
+else if(ort>=50){
     System.out.println("sınıfı geçti");
 }
 else{
